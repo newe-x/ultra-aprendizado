@@ -49,8 +49,7 @@ A proposta é desenvolver autonomia, profundidade e excelência técnica por mei
 
 Elevar a capacidade técnica a um nível profissional e autônomo, onde você **não apenas executa ferramentas, mas entende, cria, adapta e inova** no universo de Red Team e Pentest.
 
-
-![Design sem nome](https://github.com/user-attachments/assets/5babc7c3-91c5-424e-a444-d4ad7d6d87f7)
+![Roadmap)](https://github.com/user-attachments/assets/515b4660-8b11-4129-b8f4-0edb32c49a17)
 
 ---
 
