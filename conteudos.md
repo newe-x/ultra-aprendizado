@@ -98,6 +98,172 @@ Além disso, tenho um interesse contínuo na especialização em **Pentest em am
 
 ---
 
+## Lab 1 – ARP Poisoning + Sniffing de Credenciais
+
+**Objetivo:** Realizar ataque de ARP Spoofing e capturar tráfego entre cliente e gateway.  
+**Ferramentas:** `ettercap`, `arpspoof`, `wireshark`  
+**Relacionamento com Módulo:** Segurança de redes locais / MitM
+
+### Tarefas:
+- Configure três máquinas: atacante, vítima e gateway.
+- Realize ARP poisoning na rede local.
+- Capture e analise tráfego para extrair dados de autenticação.
+
+### Perguntas:
+- Qual o comportamento da tabela ARP da vítima após o ataque?
+- Foi possível capturar senhas em texto claro? Por quê?
+
+---
+
+## Lab 2 – VLAN Hopping (Switch Spoofing + Double Tagging)
+
+**Objetivo:** Simular ataque para escapar da segmentação por VLAN.  
+**Ferramentas:** `scapy`, `vconfig`, `GNS3` ou `EVE-NG`  
+**Relacionamento com Módulo:** Segmentação de redes e VLANs
+
+### Tarefas:
+- Configure duas VLANs distintas em um switch virtual.
+- Faça switch spoofing (porta trunk não autenticada).
+- Envie pacotes com dupla marcação (double tagging).
+
+### Perguntas:
+- O que é necessário para que um atacante acesse outra VLAN?
+- Como prevenir esse tipo de ataque em switches reais?
+
+---
+
+## Lab 3 – Pivoting com SSH e Port Forwarding
+
+**Objetivo:** Usar uma máquina comprometida como pivot para acessar outras redes.  
+**Ferramentas:** `ssh`, `proxychains`, `socat`, `nmap`  
+**Relacionamento com Módulo:** Movimento lateral e exploração interna
+
+### Tarefas:
+- Comprometa uma máquina na DMZ.
+- Use-a para escanear/atacar a rede interna com port forwarding.
+- Utilize proxychains para ataques multi-hop.
+
+### Perguntas:
+- Quais portas devem estar abertas para permitir forwarding reverso?
+- Como o proxychains ajuda em ataques multi-hop?
+
+---
+
+## Lab 4 – Interceptação HTTPS com Certificado Falso
+
+**Objetivo:** Interceptar HTTPS via proxy com CA falsa.  
+**Ferramentas:** `mitmproxy`, `burp`, `openssl`  
+**Relacionamento com Módulo:** Ataques Man-in-the-Middle e HTTPS
+
+### Tarefas:
+- Configure um proxy HTTPS com CA maliciosa.
+- Importe o certificado no navegador da vítima.
+- Intercepte logins de sites HTTPS.
+
+### Perguntas:
+- O que torna possível esse ataque?
+- Como a pinagem de certificado impede isso?
+
+---
+
+## Lab 5 – Manipulação de Rotas com OSPF
+
+**Objetivo:** Configurar OSPF e injetar rotas falsas.  
+**Ferramentas:** `quagga`, `FRRouting`, `GNS3` ou `EVE-NG`  
+**Relacionamento com Módulo:** Protocolos de roteamento e segurança de backbone
+
+### Tarefas:
+- Simule uma rede com roteadores OSPF.
+- Injete rotas falsas para redirecionar tráfego por você.
+
+### Perguntas:
+- Como proteger OSPF contra esse tipo de manipulação?
+- Que tipo de autenticação OSPF suporta?
+
+---
+
+## Lab 6 – DNS Spoofing + Fake Webserver
+
+**Objetivo:** Manipular resolução de DNS para levar a vítima a um servidor falso.  
+**Ferramentas:** `dnsspoof`, `dnsmasq`, `python3 -m http.server`  
+**Relacionamento com Módulo:** Manipulação de DNS / Engenharia social
+
+### Tarefas:
+- Capture requisições DNS e responda com IPs falsos.
+- Sirva páginas falsas para capturar credenciais.
+
+### Perguntas:
+- Qual o impacto se um DNS malicioso for confiável para um cliente?
+- Como o DNSSEC poderia ajudar aqui?
+
+---
+
+## Lab 7 – Captura de Tráfego em Rede Wi-Fi com WPA2
+
+**Objetivo:** Capturar o handshake WPA2 e quebrar a senha.  
+**Ferramentas:** `airmon-ng`, `airodump-ng`, `aircrack-ng`  
+**Relacionamento com Módulo:** Segurança em redes sem fio
+
+### Tarefas:
+- Coloque a interface em modo monitor.
+- Capture o handshake de um AP.
+- Tente quebrar a senha com wordlist.
+
+### Perguntas:
+- Por que o handshake é necessário para ataque WPA2?
+- Como se proteger de ataques de dicionário?
+
+---
+
+## Lab 8 – DoS de Serviço de Rede com Exploração TCP
+
+**Objetivo:** Criar ataque DoS usando manipulação de conexões TCP.  
+**Ferramentas:** `hping3`, `scapy`, `iptables`  
+**Relacionamento com Módulo:** Disponibilidade e mitigação de ataques
+
+### Tarefas:
+- Crie um servidor TCP simples (Python).
+- Ataque com flood de SYN ou FIN.
+- Monitore consumo de recursos.
+
+### Perguntas:
+- Qual a diferença entre um ataque SYN flood e UDP flood?
+- Como mitigar ataques DoS com iptables ou fail2ban?
+
+---
+
+## Lab 9 – VPN Site-to-Site com OpenVPN + Sniffing
+
+**Objetivo:** Configurar túnel VPN e interceptar tráfego fora da VPN.  
+**Ferramentas:** `openvpn`, `tcpdump`, `iptables`  
+**Relacionamento com Módulo:** Criptografia em túnel / Segurança ponta-a-ponta
+
+### Tarefas:
+- Crie uma VPN entre duas redes.
+- Capture o tráfego antes e depois do túnel.
+
+### Perguntas:
+- Onde o tráfego está criptografado?
+- Qual a diferença entre tun e tap?
+
+---
+
+## Lab 10 – Simulação de C2 + Exfiltração via DNS ou HTTP
+
+**Objetivo:** Criar canal de C2 simulado usando DNS tunneling ou HTTP POST.  
+**Ferramentas:** `dnscat2`, `http.server`, `tcpdump`  
+**Relacionamento com Módulo:** Persistência, C2 e exfiltração
+
+### Tarefas:
+- Configure uma VM atacante para receber dados exfiltrados.
+- Use curl ou DNS como canal de exfiltração de arquivos/texto.
+
+### Perguntas:
+- Por que DNS é uma forma útil de exfiltração?
+- Como detectar e bloquear C2s em uma rede corporativa?
+
+---
+
 ### 🎥 Vídeos e Cursos
 
 - [Curso de Redes - Boson Treinamentos](https://youtube.com/playlist?list=PLucm8g_ezqNpGh95n-OdEk06ity7YYfvU)  
