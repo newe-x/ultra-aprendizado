@@ -20,7 +20,9 @@ Além disso, tenho um interesse contínuo na especialização em **Pentest em am
 - 🧪 [DVWA](https://github.com/digininja/DVWA)  
 - 🧪 [TryHackMe - File Path Traversal](https://tryhackme.com/room/filepathtraversal)  
 - 🧪 [Metasploitable2 - SourceForge](https://sourceforge.net/projects/metasploitable/files/Metasploitable2/)  
-- 📄 [OWASP - Path Traversal (Traduzido)](https://owasp-org.translate.goog/www-community/attacks/Path_Traversal)  
+- 📄 [OWASP - Path Traversal (Traduzido)](https://owasp-org.translate.goog/www-community/attacks/Path_Traversal)
+- 📄 Construção e análise da vulnerabilidade
+- ✒️ Escrever write-ups
 
 ---
 
@@ -31,7 +33,10 @@ Além disso, tenho um interesse contínuo na especialização em **Pentest em am
 - 🧪 [TryHackMe - Broken Access Control](https://tryhackme.com/room/owaspbrokenaccesscontrol)  
 - 📄 [OWASP Top 10 - Broken Access Control](https://owasp.org/Top10/A01_2021-Broken_Access_Control/)  
 - 📄 [Medium: Guia Completo sobre Broken Access Control](https://medium.com/@h13.dev/understanding-broken-access-control-a-comprehensive-guide-3742b3017d2e)  
-- 📄 [Medium: Autenticação e Controle de Acesso](https://medium.com/@itsdavidmandal/learning-about-authentication-vulnerabilities-57a2bb21ddbe)  
+- 📄 [Medium: Autenticação e Controle de Acesso](https://medium.com/@itsdavidmandal/learning-about-authentication-vulnerabilities-57a2bb21ddbe)
+- 📄 Construção e análise da vulnerabilidade
+- ✒️ Escrever write-ups
+
 
 ---
 
@@ -43,7 +48,9 @@ Além disso, tenho um interesse contínuo na especialização em **Pentest em am
 - 🧪 [CrackTheLab](https://crackthelab.com/)  
 - 📄 [Medium: Vulnerabilidades de Autenticação](https://medium.com/stolabs/understanding-potential-vulnerabilities-in-authentication-mechanisms-bc488c5d8637)  
 - 📄 [OWASP Authentication Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html)  
-- 📄 [Medium: Tipos de Vulnerabilidades de Autenticação](https://medium.com/infosecmatrix/types-of-authentication-vulnerability-in-web-applications-d4cac27750de)  
+- 📄 [Medium: Tipos de Vulnerabilidades de Autenticação](https://medium.com/infosecmatrix/types-of-authentication-vulnerability-in-web-applications-d4cac27750de)
+- 📄 Construção e análise da vulnerabilidade
+- ✒️ Escrever write-ups
 
 ---
 
@@ -54,7 +61,9 @@ Além disso, tenho um interesse contínuo na especialização em **Pentest em am
 - 🧪 [TryHackMe - Authentication Module](https://tryhackme.com/module/authentication)  
 - 📄 [Medium: SSRF, XSS e CSRF - Explicação Simples](https://medium.com/@Linuxlearners/understanding-ssrf-xss-and-csrf-the-triple-threat-in-web-security-7335d67dc780)  
 - 📄 [Medium: SSRF e bypass - Rodolfo Mariano](https://rodolfomarianocy.medium.com/ssrf-entenda-o-b%C3%A1sico-de-forma-simples-e-algumas-formas-de-bypass-e694751acc0e)  
-- 📄 [Medium: Guia Extenso sobre SSRF](https://medium.com/@okanyildiz1994/mastering-ssrf-vulnerabilities-an-ultra-extensive-guide-to-understanding-and-mitigating-43aa09a8df08)  
+- 📄 [Medium: Guia Extenso sobre SSRF](https://medium.com/@okanyildiz1994/mastering-ssrf-vulnerabilities-an-ultra-extensive-guide-to-understanding-and-mitigating-43aa09a8df08)
+- 📄 Construção e análise da vulnerabilidade
+- ✒️ Escrever write-ups
 
 ---
 
@@ -66,8 +75,9 @@ Além disso, tenho um interesse contínuo na especialização em **Pentest em am
 - 🧪 [TryHackMe - Web Hacking 1](https://tryhackme.com/module/web-hacking-1)  
 - 📄 [OSINT Team: Exploração de Uploads](https://osintteam.blog/file-upload-vulnerabilities-how-hackers-exploit-them-how-to-stay-secure-fe75b4b5003c)  
 - 📄 [OWASP File Upload Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/File_Upload_Cheat_Sheet.html)  
-- 📄 [Medium: Tipos de vulnerabilidades de upload e injection](https://medium.com/@mustafa_kamal/understanding-the-differences-between-file-upload-and-injection-vulnerabilities-types-exploits-28cadfc478cc)  
-
+- 📄 [Medium: Tipos de vulnerabilidades de upload e injection](https://medium.com/@mustafa_kamal/understanding-the-differences-between-file-upload-and-injection-vulnerabilities-types-exploits-28cadfc478cc)
+- 📄 Construção e análise da vulnerabilidade  
+-✒️ Escrever write-ups
 ---
 
 ### 💣 OS Command Injection
@@ -76,7 +86,10 @@ Além disso, tenho um interesse contínuo na especialização em **Pentest em am
 - 🧪 [TryHackMe - Injection Attacks Module](https://tryhackme.com/module/injection-attacks)  
 - 📄 [Medium: Guia Completo - Hisham Razak](https://medium.com/@hishamrazak11/command-injection-a-comprehensive-guide-to-detection-exploitation-and-prevention-0c9a4d88556e)  
 - 📄 [Medium: Lab Simples de OS Command Injection](https://anmolsinghthakur.medium.com/lab-1-os-command-injection-simple-case-114c7385cef5)  
-- 📄 [Medium: Introdução por Roberto C. Oliver](https://medium.com/@robertocoliver/command-injection-f650354176b4)  
+- 📄 [Medium: Introdução por Roberto C. Oliver](https://medium.com/@robertocoliver/command-injection-f650354176b4)
+- 📄 Construção e análise da vulnerabilidade
+- ✒️ Escrever write-ups
+ 
 
 ---
 
@@ -88,7 +101,9 @@ Além disso, tenho um interesse contínuo na especialização em **Pentest em am
 - 🧪 [TryHackMe - SQLi Lab](https://tryhackme.com/room/sqlilab)  
 - 📄 [Medium: SQL Injection Masterclass](https://medium.com/@davidkarpinski1/sql-injection-masterclass-d68f65cd71ae)  
 - 📄 [OWASP SQL Injection Overview](https://owasp.org/www-community/attacks/SQL_Injection)  
-- 📄 [Medium: SQLi para Devs Frontend](https://serhiikoziy.medium.com/sql-injection-a-guide-for-frontend-developers-203a71456f26)  
+- 📄 [Medium: SQLi para Devs Frontend](https://serhiikoziy.medium.com/sql-injection-a-guide-for-frontend-developers-203a71456f26)
+- 📄 Construção e análise da vulnerabilidade
+- ✒️ Escrever write-ups
 
 ---
 
@@ -136,6 +151,7 @@ Além disso, tenho um interesse contínuo na especialização em **Pentest em am
 - 📄 [Blog - Técnicas de Reconhecimento (TryHackMe)](https://tryhackme.com/resources/blog/active-passive-reconnaissance-techniques)
 - 🧪 [Módulo: Network Security (TryHackMe)](https://tryhackme.com/module/network-security)
 - 🔲 Outros labs com foco em enumeração interna
+- ✒️ Escrever write-ups
 
 ---
 
@@ -144,16 +160,20 @@ Além disso, tenho um interesse contínuo na especialização em **Pentest em am
 - 🧪 [Metasploitable - Máquina vulnerável para testes](https://sourceforge.net/projects/metasploitable/)
 - 🧪 [Labs gerais - TryHackMe](https://tryhackme.com)
 - 🔲 Crie cenários com serviços específicos (FTP, SMB, LDAP, etc.)
+- ✒️ Escrever write-ups
 
 ---
 
 ### 🕵️ 3. Evasão de Defesas
 
 - 🎥 [Evasão de Defesas Desec](https://t.me/+4L9xbernTdRiNzVh)
+- 🎥 [Linux Red Team Defense Evasion Techniques - Hiding Linux Processes](https://www.youtube.com/watch?v=5goLhInZyYQ)
+- 🎥 [Windows Defense Evasion Techniques | Red Team Series 7-13](https://www.youtube.com/watch?v=5goLhInZyYQ)
 - 📄 [*(AV/EDR Evasion Practical Techniques)*](https://redteamleaders.coursestack.com/courses/3e9e0212-81dc-49ed-9233-ec9ca894fc6a)
 - 📄 [*(Windows API for Red Team Introduction)*](https://redteamleaders.coursestack.com/courses/96e8cffc-ac6e-4605-b7e1-39c6c26bd2e8)
 - 📄 [*(Evasão de Defesa - MITRE)*](https://attack.mitre.org/tactics/TA0005/)
 - 🧪 Labs personalizados com ferramentas como Veil, Unicorn, Obfuscation Toolkit
+- ✒️ Escrever write-ups
 
 ---
 
@@ -166,7 +186,7 @@ Além disso, tenho um interesse contínuo na especialização em **Pentest em am
 - 📄 Teoria: LinPEAS, WinPEAS, Sudo, SUID, Kernel Exploits
 - 🧪 [TryHackMe - Linux Privesc](https://tryhackme.com/module/linux-privilege-escalation)
 - 🧪 [TryHackMe - Windows Privesc](https://tryhackme.com/module/windows-privilege-escalation)
-
+- ✒️ Escrever write-ups
 
 ---
 
@@ -177,7 +197,7 @@ Além disso, tenho um interesse contínuo na especialização em **Pentest em am
 - 📄 Protocolos: SMB, WMI, RDP, PSRemoting
 - 📄 [*(Movimentação Lateral - MITRE)*](https://attack.mitre.org/tactics/TA0008/)
 - 🧪 Labs: CENÁRIO Windows AD ou lab local com múltiplas máquinas
-
+- ✒️ Escrever write-ups
 
 ---
 
@@ -188,4 +208,4 @@ Além disso, tenho um interesse contínuo na especialização em **Pentest em am
 - 📄 Métodos: Execução automática, DLL hijacking, agendamentos
 - 📄 Post-Exploitation com Empire, Metasploit ou scripts manuais
 - 🧪 Simulações de backdoor com C2 e bind shells
-
+- ✒️ Escrever write-ups
