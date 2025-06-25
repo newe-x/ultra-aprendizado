@@ -150,7 +150,9 @@ Além disso, tenho um interesse contínuo na especialização em **Pentest em am
 ### 🕵️ 3. Evasão de Defesas
 
 - 🎥 [Evasão de Defesas Desec](https://t.me/+4L9xbernTdRiNzVh)
-- 📄 *(Adicione conteúdo sobre EDR bypass, ofuscação, AV evasion, etc.)*
+- 📄 [*(AV/EDR Evasion Practical Techniques)*](https://redteamleaders.coursestack.com/courses/3e9e0212-81dc-49ed-9233-ec9ca894fc6a)
+- 📄 [*(Windows API for Red Team Introduction)*](https://redteamleaders.coursestack.com/courses/96e8cffc-ac6e-4605-b7e1-39c6c26bd2e8)
+- 📄 [*(Evasão de Defesa - MITRE)*](https://attack.mitre.org/tactics/TA0005/)
 - 🧪 Labs personalizados com ferramentas como Veil, Unicorn, Obfuscation Toolkit
 
 ---
@@ -173,13 +175,16 @@ Além disso, tenho um interesse contínuo na especialização em **Pentest em am
 - 🎥 [Movement, Pivontig & Persistence](https://www.youtube.com/watch?v=k-3cw-7L3_Y)
 - 📄 Ferramentas: CrackMapExec, BloodHound, SharpHound
 - 📄 Protocolos: SMB, WMI, RDP, PSRemoting
+- 📄 [*(Movimentação Lateral - MITRE)*](https://attack.mitre.org/tactics/TA0008/)
 - 🧪 Labs: CENÁRIO Windows AD ou lab local com múltiplas máquinas
+
 
 ---
 
 ### 📌 6. Persistência
 
 - 🎥 [Movement, Pivontig & Persistence](https://www.youtube.com/watch?v=k-3cw-7L3_Y)
+- 📄 [*(Exfiltração - MITRE)*](https://attack.mitre.org/tactics/TA0005/)
 - 📄 Métodos: Execução automática, DLL hijacking, agendamentos
 - 📄 Post-Exploitation com Empire, Metasploit ou scripts manuais
 - 🧪 Simulações de backdoor com C2 e bind shells
