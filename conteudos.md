@@ -16,14 +16,20 @@ Além disso, tenho um interesse contínuo na especialização em **Pentest em am
 
 ### 🔎 Path Traversal
 
-- 🎥 [Entendendo Path Traversal – YouTube](https://www.youtube.com/watch?v=Ov2pq_2XDuw)  
-- 🧪 [DVWA](https://github.com/digininja/DVWA)  
+- 🎥 [Entendendo Path Traversal – YouTube](https://www.youtube.com/watch?v=Ov2pq_2XDuw)
+- 📚 [PortSwigger - Path Traversal](https://portswigger.net/web-security/learning-paths/path-traversal/)  
 - 🧪 [TryHackMe - File Path Traversal](https://tryhackme.com/room/filepathtraversal)  
 - 🧪 [Metasploitable2 - SourceForge](https://sourceforge.net/projects/metasploitable/files/Metasploitable2/)  
 - 📄 [OWASP - Path Traversal (Traduzido)](https://owasp-org.translate.goog/www-community/attacks/Path_Traversal)
 - 📄 Construção e análise da vulnerabilidade
 - ✒️ Escrever write-ups
 
+**Write-ups escritos** 
+- https://medium.com/@newe.xp/file-path-traversal-simple-case-3b9d1dbd819d
+
+**Progresso** 
+- [X] Em andamento
+- [ ] Concluído 
 ---
 
 ### 🛂 Access Control (Controle de Acesso)
