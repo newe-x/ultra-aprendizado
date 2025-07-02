@@ -28,8 +28,7 @@ Além disso, tenho um interesse contínuo na especialização em **Pentest em am
 - https://medium.com/@newe.xp/file-path-traversal-simple-case-3b9d1dbd819d
 
 **Progresso** 
-- [X] Em andamento
-- [ ] Concluído 
+- [X] Concluído 
 ---
 
 ### 🛂 Access Control (Controle de Acesso)
@@ -43,6 +42,10 @@ Além disso, tenho um interesse contínuo na especialização em **Pentest em am
 - 📄 Construção e análise da vulnerabilidade
 - ✒️ Escrever write-ups
 
+**Write-ups escritos** 
+
+**Progresso** 
+- [ ] Concluído 
 
 ---
 
