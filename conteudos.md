@@ -17,6 +17,7 @@ Além disso, tenho um interesse contínuo na especialização em **Pentest em am
 ### 🔎 Path Traversal
 
 - 🎥 [Entendendo Path Traversal – YouTube](https://www.youtube.com/watch?v=Ov2pq_2XDuw)
+- 🎥 [ Treinamento Starter - Aula 09 - A5:2017-Quebra de Controle de Acessos - OWASP Top 10 2017 ](https://www.youtube.com/watch?v=Er07_fmG1Ow)
 - 📚 [PortSwigger - Path Traversal](https://portswigger.net/web-security/learning-paths/path-traversal/)  
 - 🧪 [TryHackMe - File Path Traversal](https://tryhackme.com/room/filepathtraversal)  
 - 🧪 [Metasploitable2 - SourceForge](https://sourceforge.net/projects/metasploitable/files/Metasploitable2/)  
