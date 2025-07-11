@@ -46,7 +46,7 @@ Além disso, tenho um interesse contínuo na especialização em **Pentest em am
 **Write-ups escritos** 
 
 **Progresso** 
-- [ ] Concluído 
+- [X] Concluído 
 
 ---
 
